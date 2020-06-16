@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body {
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700147462.jpg');
+    background-position: center; /* Center the image */
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#menuBar{
+    margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#btns{
+    background-color: #ef4b4b;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#headers{
+    margin-top: 10px;
+    color:#ef4b4b;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+#subheaders{
+    font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#form{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#segmentInfo{
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#additional{
+    margin-top: 30px;
+}
+
+#labelType{
+    margin: 8px 8px 8px 8px;
 }
